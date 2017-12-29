@@ -1,0 +1,58 @@
+<header class = "image-home ">
+	<h2 class = "col-3 bg-0">Digital mobil <br/> im Märkischen Viertel</h2>
+	<a id = "prize" href ="https://www.goldener-internetpreis.de/preistr%C3%A4ger" class ="image-prize"></a>
+</header>	
+
+<article class = "search">
+	<ic-search 
+		ic-button-label = "ic.layout.mode.name != 'XS' ? ('INTERFACE.SEARCH' | translate) : true"
+	>
+	</ic-search>
+	<div class = "types">
+		<a 
+			ng-repeat 	= "type in ic.taxonomy.types"
+			ng-href		= "/list/t/{{type.name}}"
+			class 		= "icon left normal icon-type-{{type.name}} active"
+			ic-touch-me
+		>
+			{{'TYPES.%s' | fill : type.name | translate}}
+		</a>
+	</div>
+</article>
+
+<article ng-bind-html  = "('CONTENT.HOME' | translate | trustAsHtml)">
+</article>
+
+<section>
+	<div class = "tiles">
+
+
+		<a 
+			ng-repeat 	= "type in ic.taxonomy.types"
+			ng-href		= "/list/t/{{type.name}}"
+			class 		= "icon icon-type-{{type.name}} white bg-3"
+		>
+			{{'TYPES.%s' | fill : type.name | translate}}
+			<small></small>
+		</a>
+
+		<a 
+			href	= "/tiles/p/tiles/u/favourite"
+			class 	= "icon icon-interface-favourites white  bg-3"
+		>
+			Merkliste
+			<small></small>
+		</a>
+
+<!-- 
+		<a 
+			href	= "#"
+			class 	= "icon icon-interface-edit white"
+		>
+			Neu Einträge und Änderungen Vorschlagen.
+			<small>Ergänzen Sie die Plattform mit Ihren eigenen Einträgen</small>
+		</a>
+-->
+
+	</div>
+</section>

@@ -1,0 +1,10 @@
+ic-page  header #prize {
+	position:					absolute;
+	bottom:						2rem;
+	right:						0rem;
+	width:						15rem;
+	height:						7.98rem;
+	background-size:			contain;
+	background-repeat:			no-repeat;
+	background-position:		100% 100%;
+}

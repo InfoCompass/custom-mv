@@ -1,0 +1,11 @@
+{
+	"backendLocation": 	"https://api.seniorennetz.berlin",
+	"statsLocation":	"https://stats.seniorennetz.berlin",
+	"block":			"",
+	"title":			"SeniorenNetz",
+	"sharing": {
+		"twitter": {
+			"hashtag": "seniorennetz"
+		} 
+	}
+}
