@@ -3,6 +3,7 @@
 	"statsLocation":	"https://stats.seniorennetz.berlin",
 	"block":			"",
 	"title":			"SeniorenNetz",
+	"languages":		["de", "en", "ru", "tr", "none"],
 	"sharing": {
 		"twitter": {
 			"hashtag": "seniorennetz"
