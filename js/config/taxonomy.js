@@ -197,15 +197,15 @@
 		}
 	]
 
-	exports.unsortedTags = [
-		'accessible',
-		'free',
-		'multi_language',
-		'public_toilet'
-	]
 
-
-
+	exports.tags = {
+		misc: [
+			'accessible',
+			'free',
+			'multi_language',
+			'public_toilet'
+		]	
+	}
 
 
 }(
