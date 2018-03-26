@@ -64,7 +64,10 @@
 							"music_singing",
 							"traveling",
 							"leisure_facility",
-							"museum"
+							"museum",
+							"concert",
+							"cinema",
+							"theatre"
 						],
 			colors:		['#c4accc', '#c4accc']
 		},
