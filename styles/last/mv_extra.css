@@ -8,3 +8,20 @@ ic-page  header #prize {
 	background-repeat:			no-repeat;
 	background-position:		100% 100%;
 }
+
+
+ic-page #gesobau {
+	position:					relative;
+	
+	width:						32rem;
+	height:						16rem;
+	max-width:					90%;
+	max-height:					50vw;
+
+	margin:						auto;
+
+	background-image:			url(/images/large/gesobau_logo.jpg);
+	background-size:			contain;
+	background-repeat:			no-repeat;
+	background-position:		50% 50%;
+}
