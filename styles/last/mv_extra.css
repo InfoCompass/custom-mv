@@ -16,7 +16,7 @@ ic-page #sponsors {
 	height:						15rem;
 }
 
-ic-page #sponsors h3 {
+ic-page #sponsors h4 {
 	position:					absolute;
 	top:						1rem;
 	left:						1rem;
@@ -26,12 +26,12 @@ ic-page #sponsors h3 {
 ic-page #gesobau {
 	position:					absolute;
 	
-	top:						4rem;
+	top:						4.25rem;
 	left:						1rem;
 	right:						1rem;
 
 	width:						auto;
-	height:						7rem;
+	height:						6.5rem;
 
 	margin:						auto;
 
