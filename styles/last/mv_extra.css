@@ -13,7 +13,8 @@ ic-page  header #prize {
 ic-page #sponsors {
 	position:					relative;
 	box-sizing: 				border-box;
-	height:						15rem;
+	padding-top:				2rem;
+	padding-bottom:				2rem;
 }
 
 ic-page #sponsors h4 {
@@ -23,20 +24,21 @@ ic-page #sponsors h4 {
 	margin:						0;
 }
 
-ic-page #gesobau {
-	position:					absolute;
-	
-	top:						4.25rem;
-	left:						1rem;
-	right:						1rem;
+ic-page #sponsors .logos {
+	display:					flex;
+	flex-wrap:					wrap;
+}
 
-	width:						auto;
-	height:						6.5rem;
-
-	margin:						auto;
-
-	background-image:			url(/images/large/gesobau_logo.jpg);
+ic-page #sponsors .logos > * {
+	flex:						1 0 12rem;
+	max-width:					100%;
 	background-size:			contain;
 	background-repeat:			no-repeat;
 	background-position:		50% 50%;
+	height:						6.5rem;
+	margin:						1rem;
 }
+
+
+
+
