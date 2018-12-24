@@ -67,7 +67,8 @@
 							"museum",
 							"concert",
 							"cinema",
-							"theatre"
+							"theatre",
+							"reading",
 						],
 			colors:		['#c4accc', '#c4accc']
 		},
