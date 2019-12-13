@@ -1,44 +1,4 @@
-<header class = "bg-0">
-	<div class = "tools">
-		<a 
-			class 		= "icon icon-interface-close"
-			ng-click 	= "cancel()" 
-			ng-if		= "icItem.internal.new"
-		>
-		</a>
 
-		<!-- EDIT -->
-
-		<div 
-			class = "main"
-			ng-if = "!icItem.internal.new"
-		>
-			<button 
-				class 		= "icon round large bg-3 white icon-interface-cancel_edit drop-shadow bg-0"
-				ng-click 	= "cancel()" 
-				ng-if		= "true || ic.user.can('edit_items')"
-				title		= "{{ic.user.can('edit_items')? 'INTERFACE.CANCEL_EDIT' : 'INTERFACE.CANCEL_EDIT_SUGGESTION' | translate}}"
-				ic-touch-me
-			>
-			</button>
-		</div>
-
-		<!-- NEW -->
-
-		<div 
-			class = "main"
-			ng-if = "icItem.internal.new"
-		>
-			
-		</div>
-
-	</div>
-	<div 
-		class		= "hero" 
-		ng-style	= "{'background-image' : 'url('+icItem.image+')'}" 
-		ng-if		= "icItem.image"
-	></div> 
-</header>
 
 
 
