@@ -56,7 +56,7 @@
 			<div ng-if  ="icItem.lastEditor">
 				{{'ITEMS.LAST_EDITOR' | translate}}  	{{icItem.lastEditor	}}	({{icItem.lastEditDate | icDate}})
 			</div>	
-			<div ng-if = "!icItem.internal.new && ic.user.can('edit_items')">
+			<div ng-if = "!icItem.internal.new && ic.user.can('edit_items') && ic.languages.availableLanguages.length > (ic.languages.availableLanguages.indexOf('none') == -1 ? 1 :2)">
 				<a class = "active" ng-click ="ic.admin.autoTranslate(icItem)">{{'INTERFACE.AUTO_TRANSLATE'| translate }}</a>
 			</div>
 		</div>
@@ -79,11 +79,6 @@
 		<!-- SUGGESTION -->
 		<h3 ng-if = "icItem.internal.new && !ic.user.can('edit_items')">{{'INTERFACE.SUGGEST_NEW_ITEM'| translate}}</h3>
 
-		<button
-			class 			= "icon icon-interface-down"
-			ic-scroll-to 	= "bottom"
-		>
-		</button>
 	</div>
 
 
@@ -460,20 +455,6 @@
 		</div>
 	</article>
 
-
-	<article>
-		<div><!--spacer--></div>
-		<div class ="xjust">
-			<div>
-			</div>
-			<button
-				class 			= "icon icon-interface-up"
-				ic-scroll-to 	= "top"
-			>
-			</button>
-		</div>
-	</article>
-	
 
 	<article>
 		<div> <!-- spacer --></div>

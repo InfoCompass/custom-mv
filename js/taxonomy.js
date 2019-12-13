@@ -155,7 +155,7 @@
 							"indoor_pool",
 							"sport_club",
 							"sport_class",
-							"playground",
+							"walks",
 							"rehabilitation",
 							"dancing"
 						],
@@ -187,10 +187,10 @@
 			name:		'location',
 			colors:		['#999', '#999'],
 		},
-		{
-			name:		'event',
-			colors:		['#999', '#999'],
-		},
+		// {
+		// 	name:		'event',
+		// 	colors:		['#999', '#999'],
+		// },
 		{
 			name:		'offer',
 			colors:		['#999', '#999'],
